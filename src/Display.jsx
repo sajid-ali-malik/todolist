@@ -18,6 +18,11 @@ export default function Display({
       >
         Add Your Task:
       </label>
+      <input value={task} type="text" onChange={handleChange} />
+
+      <button type="submit" onClick={handleClick}>
+        {editKey ? `Update` : `Add`}
+      </button>
 
       <ul>
         {list.map((item, index) => {
