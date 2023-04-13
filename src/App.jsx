@@ -1,5 +1,4 @@
-import { useState } from "react";
-import InputField from "./InputField";
+import InputField from "./functionality";
 
 import "./App.css";
 
